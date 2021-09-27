@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-item {
+    flex: 0 0 20%;
+    text-align: center;
+    background: #F5F5F5;
+    margin: 1vh 1vw;
+    padding: 2vh 2vw;
+    border-radius: 10px;
+}
+
+.card-item p {
+    text-align: left;
+}
+
+.card-item img {
+    width: 15rem;
+    height: 10rem;
+}
+
+.card-header {
+    font-size: larger;
+}
+
+.card-stats {
+
+}
+
+.card-header, .card-stats, h1 {
+    font-family: 'Josefin Sans', "Droid Sans Mono", monospace;
+}
+
+.card-stats p {
+
+}
+
+header h1 {
+    text-align: center;
+}
