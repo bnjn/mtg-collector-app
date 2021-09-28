@@ -1,10 +1,10 @@
 <?php
-    include 'php/db.php';
-
-// print_r(testQuery(1010));
-// var_dump(returnTop50());
+    require_once 'php/db.php';
+    require 'php/search.php';
+    require_once 'php/form.php';
 ?>
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <title>MTG Collection</title>
         <link rel='stylesheet' href='css/normalize.css'>
@@ -17,14 +17,15 @@
     <body>
     <header>
     <h1>Magic: The Gathering Collection</h1>
+    <?php displayForm(); ?>
     </header>
     <main>
         <div class="card-container">
-            <?php displayCards(); ?>
+            <?php displayEngine(); ?>
         </div>
     </main>
     <footer>
-
+        All rights belong to the respective artists and Wizards of the Coast. Data downloaded from Scryfall.com.
     </footer>
     </body>
 </html>
