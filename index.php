@@ -1,8 +1,7 @@
 <?php
-    include 'php/db.php';
-
-// print_r(testQuery(1010));
-// var_dump(returnTop50());
+    require_once 'php/db.php';
+    require 'php/search.php';
+    require_once 'php/form.php';
 ?>
 <html>
     <head>
@@ -17,10 +16,11 @@
     <body>
     <header>
     <h1>Magic: The Gathering Collection</h1>
+    <?php displayForm(); ?>
     </header>
     <main>
         <div class="card-container">
-            <?php displayCards(); ?>
+            <?php displayEngine(); ?>
         </div>
     </main>
     <footer>
