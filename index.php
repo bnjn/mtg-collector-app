@@ -3,7 +3,8 @@
     require 'php/search.php';
     require_once 'php/form.php';
 ?>
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <title>MTG Collection</title>
         <link rel='stylesheet' href='css/normalize.css'>
@@ -24,7 +25,7 @@
         </div>
     </main>
     <footer>
-
+        All rights belong to the respective artists and Wizards of the Coast. Data downloaded from Scryfall.com.
     </footer>
     </body>
 </html>

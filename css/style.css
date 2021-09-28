@@ -30,7 +30,7 @@
     font-size: larger;
 }
 
-.card-header, .card-stats, h1, form {
+.card-header, .card-stats, h1, form, footer {
     font-family: 'Josefin Sans', "Droid Sans Mono", monospace;
 }
 
@@ -52,6 +52,6 @@
     color: #000000;
 }
 
-header h1, header form {
+header h1, header form, footer {
     text-align: center;
 }
