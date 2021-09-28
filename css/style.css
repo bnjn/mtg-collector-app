@@ -30,18 +30,28 @@
     font-size: larger;
 }
 
-.card-stats {
-
-}
-
-.card-header, .card-stats, h1 {
+.card-header, .card-stats, h1, form {
     font-family: 'Josefin Sans', "Droid Sans Mono", monospace;
 }
 
-.card-stats p {
-
+.cmcinput {
+    width: 6rem;
 }
 
-header h1 {
+.button {
+    background-color: #00000087;
+    color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    text-decoration: none;
+    height: 2rem;
+}
+
+.button:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+header h1, header form {
     text-align: center;
 }

@@ -3,7 +3,7 @@
         echo '<form name=filter action=""  method="post">
                 <div>
                       <label for="cmc">CMC: </label>
-                      <input name="cmc" type="number">
+                      <input class="cmcinput" name="cmc" type="number">
                       <label for="showall">Show All:</label>
                       <input type="hidden" name="showall" value="0">
                       <input type="checkbox" name="showall" value="1">
@@ -20,7 +20,7 @@
                       <input type="hidden" name="ascend" value="DESC">
                       <input type="checkbox" name="ascend" value="ASC">
                 </div>
-                      <button type="submit">Filter</button>
-                      <a href="php/addcard.php">Add Card</a>
+                      <button class="button" type="submit">Filter</button>
+                      <button class="button" type="button">Add Card</button>
                </form>';
     }
