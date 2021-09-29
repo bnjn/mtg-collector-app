@@ -21,3 +21,21 @@ $artist = (string) $_POST['artistname'];
 //var_dump($rarity);
 //var_dump($price);
 //var_dump($artist);
+$query = 'INSERT INTO 
+          mtgcards(`name`, `image_uris.art_crop`, `mana_cost`, `cmc`, `type_line`, `colors`, `set_name`, `rarity`, `prices.usd`, `artist`)
+          VALUES(:name, :url, :mana_cost, :cmc, :type_line, :colors, :set_name, :rarity, :price, :artist)';
+$query = $db->prepare($query);
+$query->execute([
+    'name' => $name,
+    'url' => $url,
+    'mana_cost' => $mana_cost,
+    'cmc' => $cmc,
+    'type_line' => $type_line,
+    'colors' => $colors,
+    'set_name' => $set_name,
+    'rarity' => $rarity,
+    'price' => $price,
+    'artist' => $artist]);
+echo 'Card Added!';
+//sleep(3);
+//header('../index.php');
