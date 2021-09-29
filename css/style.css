@@ -38,6 +38,10 @@
     width: 3rem;
 }
 
+.mana-cost {
+    width: 1rem;
+}
+
 .button {
     background-color: #00000087;
     color: #FFFFFF;

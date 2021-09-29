@@ -48,21 +48,23 @@
                           <input type="checkbox" name="cardcolor[]" value="G">             
                     </div>
                     <br>
-                    <div>
+                    <div class="mana-cost">
                           Mana Cost:
                           <br>
-                          <label for="manacost[]">Colourless: </label>
-                          <input class="numinput" name="manacost[]" type="number">
+                          <label for="manacost[]">Colourless</label>
+                          <input class="numinput" name="manacost['.''.']">
                           <label for="manacost[]">White</label>
-                          <input type="checkbox" name="manacost[]" value="W">
+                          <input type="number" name="manacost['.'W'.']">
                           <label for="manacost[]">Blue</label>
-                          <input type="checkbox" name="manacost[]" value="U">
+                          <input type="number" name="manacost['.'U'.']">
                           <label for="manacost[]">Red</label>
-                          <input type="checkbox" name="manacost[]" value="R">
+                          <input type="number" name="manacost['.'R'.']">
                           <label for="manacost[]">Black</label>
-                          <input type="checkbox" name="manacost[]" value="B">
+                          <input type="number" name="manacost['.'B'.']">
                           <label for="manacost[]">Green</label>
-                          <input type="checkbox" name="manacost[]" value="G">
+                          <input type="number" name="manacost['.'G'.']">
+                    </div>
+                    <div>      
                           <br>
                           =    
                           <br>
