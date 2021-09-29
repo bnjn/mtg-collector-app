@@ -17,7 +17,9 @@
     <body>
     <header>
     <h1>Magic: The Gathering Collection</h1>
-    <?php displayForm(); ?>
+    <?php displayFilterForm(); ?>
+            <button class="button" type="button" onclick="location.href='php/addcard.php'">Add Card</button>
+        </form>
     </header>
     <main>
         <div class="card-container">

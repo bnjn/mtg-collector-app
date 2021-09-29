@@ -1,0 +1,23 @@
+<?php
+require_once 'db.php';
+$db = db();
+$name = (string) $_POST['name'];
+$url = (string) $_POST['imgurl'];
+$mana_cost = (array) $_POST['manacost'];
+$cmc = (int) $_POST['cmc'];
+$type_line = (string) white_list($_POST['type'], ["Artifact", "Creature", "Enchantment", "Instant", "Land", "Planeswalker", "Sorcery"], "Invalid type!");
+$colors = (array) $_POST['cardcolor'];
+$set_name = (string) $_POST['setname'];
+$rarity = (string) white_list($_POST['rarity'], ["common", "uncommon", "rare", "mythic"], "Invalid rarity!");
+$price = (float) $_POST['price'];
+$artist = (string) $_POST['artistname'];
+//var_dump($name);
+//var_dump($url);
+//var_dump($mana_cost);
+//var_dump($cmc);
+//var_dump($type_line);
+//var_dump($colors);
+//var_dump($set_name);
+//var_dump($rarity);
+//var_dump($price);
+//var_dump($artist);

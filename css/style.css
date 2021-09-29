@@ -34,8 +34,8 @@
     font-family: 'Josefin Sans', "Droid Sans Mono", monospace;
 }
 
-.cmcinput {
-    width: 6rem;
+.numinput {
+    width: 3rem;
 }
 
 .button {
@@ -52,6 +52,6 @@
     color: #000000;
 }
 
-header h1, header form, footer {
+header h1, form, footer {
     text-align: center;
 }
