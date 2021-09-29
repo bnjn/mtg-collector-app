@@ -38,8 +38,8 @@
     width: 3rem;
 }
 
-.mana-cost {
-    width: 1rem;
+.mana-cost input {
+    width: 6vw;
 }
 
 .button {

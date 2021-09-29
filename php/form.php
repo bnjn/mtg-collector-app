@@ -52,7 +52,7 @@
                           Mana Cost:
                           <br>
                           <label for="manacost[]">Colourless</label>
-                          <input class="numinput" name="manacost['.''.']">
+                          <input name="manacost['.''.']">
                           <label for="manacost[]">White</label>
                           <input type="number" name="manacost['.'W'.']">
                           <label for="manacost[]">Blue</label>

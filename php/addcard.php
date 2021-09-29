@@ -16,6 +16,7 @@
 </head>
 <body>
 <header>
+    <a href="../index.php">< Back</a>
     <h1>Add Card</h1>
 </header>
 <main>
