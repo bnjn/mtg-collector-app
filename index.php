@@ -15,12 +15,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     </head>
     <body>
-    <header>
-    <h1>Magic: The Gathering Collection</h1>
-    <?php displayFilterForm(); ?>
-            <button class="button" type="button" onclick="location.href='php/addcard.php'">Add Card</button>
-        </form>
-    </header>
+        <header>
+            <h1>Magic: The Gathering Collection</h1>
+            <?php displayFilterForm(); ?>
+                <button class="button" type="button" onclick="location.href='php/addcard.php'">Add Card</button>
+            </form>
+        </header>
     <main>
         <div class="card-container">
             <?php displayEngine(); ?>

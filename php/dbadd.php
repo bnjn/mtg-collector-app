@@ -21,17 +21,7 @@ function convertManaCost($manaarray) : string {
     $g = str_repeat("G", (int) $manaarray['G']);
     return "$colorless" . "$w" . "$u" . "$r" . "$b" . "$g";
 }
-//var_dump(convertManaCost($mana_cost));
-//var_dump($name);
-//var_dump($url);
-//var_dump($mana_cost);
-//var_dump($cmc);
-//var_dump($type_line);
-//var_dump($colors);
-//var_dump($set_name);
-//var_dump($rarity);
-//var_dump($price);
-//var_dump($artist);
+
 $query = 'INSERT INTO
           mtgcards(`name`, `image_uris.art_crop`, `mana_cost`, `cmc`, `type_line`, `colors`, `set_name`, `rarity`, `prices.usd`, `artist`)
           VALUES(:name, :url, :mana_cost, :cmc, :type_line, :colors, :set_name, :rarity, :price, :artist)';
@@ -48,5 +38,3 @@ $query->execute([
     'price' => $price,
     'artist' => $artist]);
 echo 'Card Added!';
-//sleep(3);
-//header('../index.php');
