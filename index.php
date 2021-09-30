@@ -21,13 +21,13 @@
                 <button class="button" type="button" onclick="location.href='php/addcard.php'">Add Card</button>
             </form>
         </header>
-    <main>
-        <div class="card-container">
-            <?php displayEngine(); ?>
-        </div>
-    </main>
-    <footer>
-        All rights belong to the respective artists and Wizards of the Coast. Data downloaded from Scryfall.com.
-    </footer>
+        <main>
+            <div class="card-container">
+                <?php displayEngine(); ?>
+            </div>
+        </main>
+        <footer>
+            All rights belong to the respective artists and Wizards of the Coast. Data downloaded from Scryfall.com.
+        </footer>
     </body>
 </html>
